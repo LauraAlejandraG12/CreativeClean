@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif ;
+  
+}
+
+header{
+  background-image: url('../assets/img/bgHeader.png');
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  background-size: cover; /*la imagen ocupa todo el espacio */
+  background-position: center;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+ 
+
+  
+}
+
+
+h1{
+    font-size: 80px;
+    color: #ff8a41;
+    font-weight: 350;
+}
+
+.text1{
+    font-size: 30px;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #ff8a41;
+    color: white;
+    border: none;
+}
